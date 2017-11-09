@@ -24,13 +24,13 @@ body {
   font-weight: 300;
 	margin-bottom: 0px;
 	font-size: 72pt;
+	border-bottom: 1px solid;
 }
 
 .tagline {
 	text-align: left;
 	font-size: 40pt;
 	margin-top: 0px;
-	border-bottom: 1px solid;
 }
 
 .header {
