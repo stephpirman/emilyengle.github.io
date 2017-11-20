@@ -4,7 +4,7 @@ body {
 	font-weight: 100;
 	margin: 0;
 	background-image: url(../img/background.jpg);
-	background-size: auto;
+	background-size: contain;
 }
 
 #acmw-logo {
