@@ -2,12 +2,47 @@
 <html>
 
   <head>
+    <style>
+    .topnav {
+        background-color: #3f026d;
+        overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #fcfcff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #5c466d;
+        color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #010102;
+        color: white;
+    }
+    </style>
   	<title>Stephanie Pirman</title>
   	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
+    <div class="topnav" id="myTopnav">
+      <a href="/">Home</a>
+      <a href="/contact">Contact</a>
+      <a href="/about">About</a>
+    </div>
+
     <div class="title">
       <p class="name">Stephanie Pirman</p>
       <p class="tagline">Computer Science and Engineering Major at <b>OSU</b> <img src="img/osu.png" id="osu-logo"></p>
