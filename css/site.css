@@ -1,6 +1,6 @@
 body {
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	margin: 0;
 	background-image: url(../img/background.jpg);
@@ -32,7 +32,6 @@ body {
 	margin-bottom: 0px;
 	font-size: 65pt;
 	border-bottom: 1px solid;
-	border-bottom: 4px;
 }
 
 .tagline {
