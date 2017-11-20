@@ -7,11 +7,6 @@ body {
 	background-size: cover;
 }
 
-#acmw-logo {
-	display: inline;
-	max-width: 40px;
-}
-
 .title {
 	text-align: left;
 	font-size: 36pt;
