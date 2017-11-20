@@ -15,6 +15,7 @@ body {
 #ocwic-logo {
 	display: inline;
 	max-width: 40px;
+	max-height: 40px;
 }
 
 .title {
