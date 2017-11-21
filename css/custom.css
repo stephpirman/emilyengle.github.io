@@ -1,3 +1,32 @@
-/*** <Nav Bar> ***/
+nav ul {
+		background-color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+		overflow: hidden;
+}
+nav li {
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: normal;
+  height: 30px;
+}
 
-/*** </Nav Bar> ***/
+/* Style the links inside the navigation bar */
+nav a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+		background-color: #898885;
+		color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+		background-color: #010102;
+		color: white;
+}
