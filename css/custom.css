@@ -1,32 +1,29 @@
 /*** Start Nav Bar ***/
 nav ul {
-		background-color: #000000;
-    list-style: none;
-    text-align: center;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav li {
-  display: inline;
-  font-weight: 300;
-  font-size: 1.2em;
-  line-height: normal;
-  height: 30px;
-  border-bottom: 1px solid black;
+    float: left;
 }
 
-/* Style the links inside the navigation bar */
-nav a {
-	display: block;
-	color: white;
-	text-decoration: none;
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-/* Change the color of links on hover */
-nav a:hover {
-		background-color: #898885;
-		color: black;
+li a:hover {
+    background-color: black;
 }
 
 /* Add a color to the active/current link */
