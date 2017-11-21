@@ -1,9 +1,7 @@
 /******* NavBar *******/
 nav ul {
   list-style: none;
-  text-align: left;
-  padding: 0;
-  margin: 0;
+  text-align: center;
   background-color: black;
 }
 nav li, h1#nav-title {
@@ -31,7 +29,7 @@ nav a.active {
 }
 h1#nav-title {
   background-color: black;
-  text-align: left;
+  text-align: center;
   margin: 0;
   color: white;
   transition: background-color .3s ease;

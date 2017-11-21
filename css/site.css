@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-	text-align: left;
+	text-align: center;
 	font-size: 36pt;
 	min-width: 415px;
 	overflow: visible;
