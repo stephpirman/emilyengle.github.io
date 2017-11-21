@@ -8,6 +8,7 @@ nav ul {
 }
 
 nav li {
+  display: inline;
   font-weight: 300;
   font-size: 1.2em;
   line-height: normal;
@@ -33,47 +34,4 @@ nav a.active {
 		background-color: #010102;
 		color: white;
 }
-
-@media screen and (max-width: 599px) {
-  nav ul {
-    height: 0;
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    transition: height .5s ease;
-  }
-  ul.expanded {
-    height: 201px;
-  }
-  .content {
-    padding: 1em;
-  }
-}
-@media screen and (min-width: 600px) {
-  h1#nav-title {
-    display: none;
-  }
-
-  nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-  nav li {
-    float: left;
-  }
-  nav ul {
-    overflow: hidden;
-    width: 600px;
-    margin: 0 auto;
-  }
-  nav {
-    background-color: #000000;
-  }
-  .content {
-    padding: 2em;
-  }
-}
-/**** End Nav Bar ***/
+/*** End Nav Bar ***/
