@@ -1,34 +1,50 @@
 /*** Start Nav Bar ***/
-nav ul {
-    list-style-type: none;
+.nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 0;
-    width: 100%;
 }
 
-nav li {
-    float: left;
+.nav li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+  }
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
 }
 
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: black;
+.nav a:hover {
+  background-color: #005f5f;
 }
 
 /* Add a color to the active/current link */
-nav a.active {
+.nav a.active {
 		background-color: #010102;
 		color: white;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 }
 /*** End Nav Bar ***/
