@@ -43,8 +43,15 @@
   }
 
   .nav li {
-    display: inline-block;
-    margin-right: -4px;
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
   }
 }
 /*** End Nav Bar ***/
