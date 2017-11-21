@@ -1,24 +1,25 @@
+/*** Start Nav Bar ***/
 nav ul {
 		background-color: #000000;
     list-style: none;
     text-align: center;
     padding: 0;
     margin: 0;
-		overflow: hidden;
 }
+
 nav li {
   font-weight: 300;
   font-size: 1.2em;
   line-height: normal;
   height: 30px;
+  border-bottom: 1px solid black;
 }
 
 /* Style the links inside the navigation bar */
 nav a {
-		display: block;
-		color: white;
-		text-decoration: none;
-		font-size: 17px;
+	display: block;
+	color: white;
+	text-decoration: none;
 }
 
 /* Change the color of links on hover */
@@ -32,3 +33,4 @@ nav a.active {
 		background-color: #010102;
 		color: white;
 }
+/**** End Nav Bar ***/
