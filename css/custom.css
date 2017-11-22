@@ -2,7 +2,7 @@
 nav ul {
   list-style: none;
   text-align: center;
-  background-color: #e9cdcc;
+  background-color: black;
 }
 nav li, h1#nav-title {
   font-family: 'Roboto', sans-serif;
@@ -28,16 +28,16 @@ nav a.active {
   cursor: default;
 }
 h1#nav-title {
-  background-color: #e9cdcc;
+  background-color: black;
   text-align: center;
   margin: 0;
   color: white;
   transition: background-color .3s ease;
 }
 h1#nav-title.expanded {
-  background-color: #c5a6e8;
+  background-color: black;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   nav ul {
     height: 0;
     width: 100%;
