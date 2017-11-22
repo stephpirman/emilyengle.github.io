@@ -2,7 +2,7 @@
 nav ul {
   list-style: none;
   text-align: center;
-  background-color: black;
+  background-color: #e9cdcc;
 }
 nav li, h1#nav-title {
   font-family: 'Roboto', sans-serif;
@@ -28,7 +28,7 @@ nav a.active {
   cursor: default;
 }
 h1#nav-title {
-  background-color: black;
+  background-color: #e9cdcc;
   text-align: center;
   margin: 0;
   color: white;
