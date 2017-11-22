@@ -34,15 +34,15 @@ body {
 }
 
 .name {
-	text-align: left;
+	text-align: center;
   font-weight: 300;
 	margin-bottom: 0px;
 	font-size: 65pt;
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 }
 
 .tagline {
-	text-align: left;
+	text-align: center;
 	font-size: 30pt;
 	margin-top: 10px;
 }
