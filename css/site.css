@@ -30,7 +30,7 @@ body {
 	font-size: 36pt;
 	min-width: 415px;
 	overflow: visible;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 }
 
 .name {
@@ -44,7 +44,7 @@ body {
 .tagline {
 	text-align: left;
 	font-size: 30pt;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 
 .header {
