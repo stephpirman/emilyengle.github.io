@@ -19,6 +19,12 @@ body {
 	max-height: 40px;
 }
 
+#linkicon {
+	display: inline;
+	max-width: 40px;
+	max-height: 40px;
+}
+
 #resume {
 	display: inline;
 	align-content: center;
