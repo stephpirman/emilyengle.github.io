@@ -19,9 +19,7 @@ body {
 }
 
 #resume {
-	display: inline;
-	max-width: 800px;
-	max-height: 1100px;
+	display: block;
 }
 
 .title {
