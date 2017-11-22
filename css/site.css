@@ -18,6 +18,12 @@ body {
 	max-height: 40px;
 }
 
+#resume {
+	display: inline;
+	max-width: 800px;
+	max-height: 1100px;
+}
+
 .title {
 	text-align: center;
 	font-size: 36pt;
