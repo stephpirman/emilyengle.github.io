@@ -14,12 +14,12 @@ body {
 
 #ocwic-logo {
 	display: inline;
-	max-width: 40px;
-	max-height: 40px;
+	height: 100%;
 }
 
 #resume {
 	display: block;
+
 }
 
 .title {
