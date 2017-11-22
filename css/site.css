@@ -3,6 +3,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	margin: 0;
+	padding: 0;
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 }
@@ -44,6 +45,12 @@ body {
 .tagline {
 	text-align: center;
 	font-size: 30pt;
+	margin-top: 10px;
+}
+
+.text {
+	text-align: center;
+	font-size: 20pt;
 	margin-top: 10px;
 }
 
