@@ -4,17 +4,16 @@ body {
 	font-weight: 100;
 	margin: 0;
 	padding: 0;
-	background-color: white;
-	background-image: url(../img/background.jpg);
-	background-size: cover;
+	background: rgb(0,251,202);
+	background: linear-gradient(45deg, rgba(0,251,202,0.675529586834734) 0%, rgba(201,0,255,0.7819721638655462) 100%) fixed;
 }
 
-#acmw-logo {
+#wicys-logo {
 	display: inline;
 	max-width: 40px;
 }
 
-#ocwic-logo {
+#csc-logo {
 	display: inline;
 	max-width: 40px;
 	max-height: 40px;
